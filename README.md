@@ -11,12 +11,12 @@
    * Run "mongosh" in powershell, cmd or terminal (for Windows)
    * Run "use admin"
    * Run "db.adminCommand(
-        ... {
-        ..... createUser: "root",
-        ..... pwd: "12345",
-        ..... roles: [{role: "userAdminAnyDatabase", db: "admin"}, "readWriteAnyDatabase"]
-        ..... }
-        ... )"
+        {
+        createUser: "root",
+        pwd: "12345",
+        roles: [{role: "userAdminAnyDatabase", db: "admin"}, "readWriteAnyDatabase"]
+        }
+        )"
    * Run "show users" to check to see if the setup was done correctly
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ccinfBnG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d46ng9w6g19okbl2jbmz.png"/>
