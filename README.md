@@ -4,9 +4,9 @@
 
 * Follow the steps below to run this app.
 1. Download MongoDB Community Server (make sure to install MongoDB Compass as well):
-   https://www.mongodb.com/try/download/community
+   * https://www.mongodb.com/try/download/community
 2. Download MongoDB Shell (mongosh):
-   https://www.mongodb.com/try/download/shell
+   * https://www.mongodb.com/try/download/shell
 3. Create a user and a password by running the following commands:
    * Run "mongosh" in powershell, cmd or terminal (for Windows) then "test> " will show up.
    * Run "use admin" then "switched to db admin" and "admin> " will show up.
