@@ -1,5 +1,5 @@
 ## **Simple CRUD App**
-### **Reactive MongoDB / Spring WebFlux**
+### **Reactive MongoDB, Spring WebFlux and Thymeleaf**
 
 
 * Follow the steps below to run this app.
