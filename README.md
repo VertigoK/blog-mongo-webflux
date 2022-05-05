@@ -1,6 +1,3 @@
-# blog-mongo-webflux
-CRUD App using Reactive MongoDB / Spring WebFlux
-
 ## **Simple CRUD App**
 ### **Reactive MongoDB / Spring WebFlux**
 
