@@ -1,6 +1,8 @@
 ## **Simple CRUD App**
 ### **Reactive MongoDB / Spring WebFlux**
 
+
+* Follow the steps below to run this app.
 1. Download MongoDB Community Server (make sure to install MongoDB Compass as well):
    https://www.mongodb.com/try/download/community
 2. Download MongoDB Shell (mongosh):
