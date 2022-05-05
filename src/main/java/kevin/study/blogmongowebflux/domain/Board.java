@@ -1,4 +1,4 @@
-package uniflow.blogmongowebflux.domain;
+package kevin.study.blogmongowebflux.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;

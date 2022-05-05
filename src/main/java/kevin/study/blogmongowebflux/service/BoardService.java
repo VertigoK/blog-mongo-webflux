@@ -1,13 +1,13 @@
-package uniflow.blogmongowebflux.service;
+package kevin.study.blogmongowebflux.service;
 
+import kevin.study.blogmongowebflux.repository.BoardRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import uniflow.blogmongowebflux.domain.Board;
-import uniflow.blogmongowebflux.repository.BoardRepository;
+import kevin.study.blogmongowebflux.domain.Board;
 
 import java.time.LocalDateTime;
 

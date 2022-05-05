@@ -1,4 +1,4 @@
-package uniflow.blogmongowebflux.repository;
+package kevin.study.blogmongowebflux.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import uniflow.blogmongowebflux.domain.Board;
+import kevin.study.blogmongowebflux.domain.Board;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

@@ -1,12 +1,12 @@
-package uniflow.blogmongowebflux.controller;
+package kevin.study.blogmongowebflux.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
-import uniflow.blogmongowebflux.domain.Board;
-import uniflow.blogmongowebflux.service.BoardService;
+import kevin.study.blogmongowebflux.domain.Board;
+import kevin.study.blogmongowebflux.service.BoardService;
 
 @RestController
 public class BoardApiController {

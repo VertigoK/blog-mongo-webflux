@@ -1,4 +1,4 @@
-package uniflow.blogmongowebflux.mongo;
+package kevin.study.blogmongowebflux.mongo;
 
 import lombok.Getter;
 import lombok.Setter;

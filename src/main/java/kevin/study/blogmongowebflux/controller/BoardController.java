@@ -1,5 +1,6 @@
-package uniflow.blogmongowebflux.controller;
+package kevin.study.blogmongowebflux.controller;
 
+import kevin.study.blogmongowebflux.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.thymeleaf.spring5.context.webflux.IReactiveDataDriverContextVariable;
 import org.thymeleaf.spring5.context.webflux.ReactiveDataDriverContextVariable;
-import uniflow.blogmongowebflux.service.BoardService;
 
 @Controller
 public class BoardController {

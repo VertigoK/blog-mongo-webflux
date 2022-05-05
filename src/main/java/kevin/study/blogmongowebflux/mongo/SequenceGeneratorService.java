@@ -1,4 +1,4 @@
-package uniflow.blogmongowebflux.mongo;
+package kevin.study.blogmongowebflux.mongo;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.mongodb.core.MongoOperations;

@@ -1,10 +1,10 @@
-package uniflow.blogmongowebflux.mongo;
+package kevin.study.blogmongowebflux.mongo;
 
+import kevin.study.blogmongowebflux.domain.Board;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;
 import org.springframework.data.mongodb.core.mapping.event.BeforeConvertEvent;
 import org.springframework.stereotype.Component;
-import uniflow.blogmongowebflux.domain.Board;
 
 @RequiredArgsConstructor
 @Component
