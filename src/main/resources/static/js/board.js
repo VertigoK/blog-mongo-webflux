@@ -56,7 +56,7 @@ function deleteBoard() {
     }).done(function(resp) {
         alert('글이 삭제되었습니다.');
         location.href = '/board';
-    }).fail(function(error) {
-        alert(JSON.stringify(error));
+    }).fail(function(request) {
+        alert(request.responseText);
     });
 }

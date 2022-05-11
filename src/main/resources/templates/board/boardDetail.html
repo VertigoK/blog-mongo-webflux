@@ -23,6 +23,7 @@
             <table class="table table-striped">
                 <thead>
                 <tr>
+                    <th>No</th>
                     <th>Title</th>
                     <th>Content</th>
                     <th></th>
@@ -31,6 +32,7 @@
                 </thead>
                 <tbody>
                 <tr data-th-each="board : ${boards}">
+                    <td th:text="${board.id}" id="boardId"></td>
                     <td>[[${board.title}]]</td>
                     <td>[[${board.content}]]</td>
                     <td><a th:href="'/board/'+${board.id}+'/updateForm'" class="btn btn-warning btn-sm">수정</a></td>

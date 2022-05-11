@@ -53,5 +53,4 @@ public class BoardController {
         model.addAttribute("boards", reactiveDataDriverMode);
         return "board/updateForm";
     }
-
 }
